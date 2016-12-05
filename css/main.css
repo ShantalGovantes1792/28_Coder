@@ -1,7 +1,16 @@
+/*font-family: 'Open Sans', sans-serif;*/
+/*font-family: 'Montserrat', sans-serif;*/
+p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.3em;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Montserrat', sans-serif;
+}
 
 h1{
 	text-transform: uppercase;
-	font-family: 'Montserrat', sans-serif;
 }
 /*HEADER*/
 .bg-img{
@@ -9,8 +18,20 @@ h1{
 	background-size: cover;
 	height: 600px;
 }
-.navbar-inverse{
-	opacity: 0.3; 
+.navbar-brand{
+	font-size: 1.3em;
+}
+
+.navbar{
+	margin-bottom: 0px;
+	font-family: 'Montserrat', sans-serif; 
+	font-size: 0.9em;
+}
+.opacidad{
+	background-color: rgba(255, 255, 255, 0.2);
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-bottom: -30px;
 }
 
 /* BUTTONS */
@@ -46,10 +67,6 @@ hr{
 .bg-black{
 	background-color: black;
 }
-/*TEXTOS*/
-.text-white{
-	color: white;
-}
 /* ICONOS */
 i{
 	color: #F05F40;
@@ -57,26 +74,6 @@ i{
 footer i{
 	color: black;
 }
-/*SHORTCUTS*/
-
-.pt-5{
-	padding-top: 5%;
-}
-
-.pb-5{
-	padding-bottom: 5%;
-}
-.pl-7{
-	padding-left: 7%;
-}
-.pr-5{
-	padding-right: 5%;
-}
-
-/*IMG-BACKGROUND*/
-
-
-
 
 
 @media screen and (max-width: 800px ) {
